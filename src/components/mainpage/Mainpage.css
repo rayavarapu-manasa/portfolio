@@ -1,0 +1,110 @@
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: Arial, sans-serif; /* Optional: Set a default font */
+  background-image: url("https://img.freepik.com/free-photo/elevated-view-laptop-earphones-crumpled-papers-pencil-blank-spiral-notepad-frame-black-background_23-2148080331.jpg");
+  background-size: 100%; /* Make background image cover the whole page */
+  background-position: cover; /* Center the background image */
+  color: white; /* Set default text color */
+} 
+
+.navbar {
+    background-color: rgb(70, 67, 67); /* Set background color */
+    color: white; /* Set text color */
+    padding: 10px 20px; /* Add some padding */
+    font-size: 21px;
+    background-size:cover;  
+  }
+  
+  .navbar  {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    
+  }
+ 
+  
+  .navbar ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add some spacing between items */
+   
+  }
+  
+  .navbar ul.left li {
+    font-weight: bold; /* Make the "Portfolio" item bold */
+  }
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .content {
+    /* General formatting */
+    margin-top: 200px;
+    margin-left: 800px; /* Center the element horizontally */
+    padding: 20px; /* Add some padding for visual spacing */
+    width: 600px; /* Set a maximum width (adjust as needed) */
+    color:white; /* Light background color */
+     /* Subtle border */
+  
+    /* Typography */
+    font-family: Arial, sans-serif; /* Specify a preferred font family */
+    font-size: 16px; /* Base font size */
+    line-height: 1.5; /* Adjust line spacing for readability */
+    /* Dark text color */
+  
+    /* Headings */
+    h1, h2 {
+      margin-top: 10px; /* Remove default top margin */
+      margin-bottom: 10px; /* Add some bottom margin */
+    }
+  
+    h1 {
+      font-size: 26px;
+      text-align: left; /* Larger font size for the main heading */
+    }
+  
+    h2 {
+      font-size: 20px; /* Slightly smaller font size for the subheading */
+    }
+  
+    /* Paragraph */
+    p {
+      margin: 15px 0; /* Add vertical spacing between paragraphs */
+    }
+    .resume-button {
+      background-color: #3b3d3e ; /* Blue */
+      border-color:white ;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    
+    .resume-button a {
+      color: white;
+      text-decoration: none;
+    }
+    
+    .resume-button:hover {
+      background-color: #6b6b6c; 
+      
+    }
+    
+  }
+  

@@ -1,0 +1,86 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+    background-image: url("https://img.freepik.com/free-photo/elevated-view-laptop-earphones-crumpled-papers-pencil-blank-spiral-notepad-frame-black-background_23-2148080331.jpg");
+    background-size: 100%; /* Make background image cover the whole page */
+    background-position: cover; /* Center the background image */
+    color: white; /* Set default text color */
+  } 
+  
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover {
+    background-color: #111;
+  }
+  
+  /* Content styles */
+  .content {
+    padding: 20px;
+    margin-top: 80px;
+   
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .project h2 {
+    margin-top: 0;
+  }
+  
+  .project p {
+    margin-bottom: 10px;
+  }
+  
+  .project-button {
+    background-color: #3b3d3e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+  
+  .project-button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .project-button:hover {
+    background-color: #5f6061;
+  }
+  
