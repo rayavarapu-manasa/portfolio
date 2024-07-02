@@ -29,7 +29,7 @@ function Mainpage() {
           logic and also proficient in Mysql and MongoDB.
         </p>
         <button className="resume-button">
-          <a href="https://drive.google.com/file/d/1g2JNNZeuiwGPW1SMdHNsYY8g_3rApIpQ/view?usp=sharing" download>View Resume</a>
+          <a href="" download>View Resume</a>
         </button>
       </div>
     </>
